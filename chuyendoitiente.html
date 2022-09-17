@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th style="width: 180px">Amount</th>
+        <th style="width: 80px"></th>
+        <th style="width: 120px">From Currency</th>
+        <th style="width: 80px"></th>
+        <th style="width: 120px">To Currency</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="currencyin" style="width: 180px"></td>
+        <td style="width: 80px"></td>
+        <td><select id="unit1" style="width: 120px">
+            <option>VND</option>
+            <option>USD</option>
+        </select></td>
+        <td style="width: 80px"></td>
+        <td><select id="unit2" style="width: 120px">
+            <option>VND</option>
+            <option>USD</option>
+        </select></td>
+        <td>
+            <button type="button" onclick="exchange()" style="background-color: #3989ff;color: white">Convert</button>
+        </td>
+    </tr>
+</table>
+<p id="result"></p>
+<script src="chuyendoitiente.js"></script>
+</body>
+</html>
